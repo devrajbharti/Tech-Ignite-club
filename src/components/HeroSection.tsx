@@ -1,0 +1,35 @@
+"use client";
+import Link from "next/link";
+import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
+import { LampContainer } from "./ui/lamp";
+import {motion} from "motion/react"
+
+function HeroSection() {
+  return (
+    <div
+    className="h-auto md:h-[40rem] w-full rounded-md flex flex-col items-center justify-center relative overflow-hiden mx-auto py-10 md:py-0" 
+    >
+        <Spotlight className="-top-40 left-0 md:-top-20 md:left-60"
+        fill="white">
+        </Spotlight>
+        <div className="p-4 relative z-10 w-full text-center">
+            <h1
+            className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400"
+            >TECH IGNITE CLUB</h1>
+            <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">Join a community of tech enthusiasts turning ideas into reality! Learn, code, and create with like-minded innovators through workshops, hackathons, and real-world projects. The future starts here!</p>
+            <div className="mt-4">
+                <Link href={'/courses'}>
+                <Button>
+                  EXPLORE
+                </Button>
+                </Link>
+            </div>
+        </div>
+
+
+    </div>
+  )
+}
+
+export default HeroSection
