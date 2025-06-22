@@ -3,7 +3,7 @@
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
-function constacus() {
+function Contactus() {
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -59,4 +59,4 @@ function constacus() {
   );
 }
 
-export default constacus;
+export default Contactus;

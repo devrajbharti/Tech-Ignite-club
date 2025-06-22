@@ -1,6 +1,6 @@
 'use client'
 import Featuredsection from "@/components/Featuredsection"
-import Image from "next/image"
+// import Image from "next/image"
 import React from "react"
 import courseData from '@/data/courses.json'
 

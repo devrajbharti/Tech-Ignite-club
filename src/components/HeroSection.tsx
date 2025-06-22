@@ -2,8 +2,7 @@
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
-import { LampContainer } from "./ui/lamp";
-import {motion} from "motion/react"
+
 
 function HeroSection() {
   return (
