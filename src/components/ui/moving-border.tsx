@@ -27,7 +27,7 @@ export function Button({
   borderClassName?: string;
   duration?: number;
   className?: string;
-  [key: string]: any;
+  // [key: string]: any;
 }) {
   return (
     <Component
@@ -80,9 +80,9 @@ export const MovingBorder = ({
   duration?: number;
   rx?: string;
   ry?: string;
-  [key: string]: any;
+  // [key: string]: any;
 }) => {
-  const pathRef = React.createRef<any>();
+  const pathRef = React.createRef<SVGRectElement>();
   const progress = useMotionValue<number>(0);
 
   useAnimationFrame((time) => {
