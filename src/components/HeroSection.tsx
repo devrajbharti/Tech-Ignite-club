@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
-import { Button } from "./ui/moving-border";
+// import { Button } from "./ui/moving-border";
 
 
 function HeroSection() {
@@ -19,9 +19,9 @@ function HeroSection() {
             <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto">Join a community of tech enthusiasts turning ideas into reality! Learn, code, and create with like-minded innovators through workshops, hackathons, and real-world projects. The future starts here!</p>
             <div className="mt-4">
                 <Link href={'/courses'}>
-                <Button>
-                  EXPLORE
-                </Button>
+                <button>
+                  Expolre
+                </button>
                 </Link>
             </div>
         </div>
